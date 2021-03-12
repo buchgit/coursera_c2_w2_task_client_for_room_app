@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    
+    
+    <Spinner
+            android:id="@+id/spinner_tab"
+            android:entries="@array/tables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <Spinner
+            android:id="@+id/spinner_act"
+            android:entries="@array/actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <EditText
+            android:id="@+id/et_main"
+            android:text="@string/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    
+    <Button
+            android:id="@+id/btn_click"
+            android:onClick="onClick"
+            android:text="@string/push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <Button
+            android:id="@+id/btn_pull"
+            android:text="@string/pull"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    
+</LinearLayout>

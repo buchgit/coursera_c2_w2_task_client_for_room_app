@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">client_for_room_app</string>
+    <string name="id">id</string>
+    <string name="pull">pull</string>
+    <string name="push">push</string>
+    <string-array name="tables">
+        <item>Albums</item>
+        <item>Songs</item>
+        <item>Album-songs</item>
+    </string-array>
+    <string-array name="actions">
+        <item>insert</item>
+        <item>update</item>
+        <item>query</item>
+        <item>delete</item>
+    </string-array>
+    
+</resources>
